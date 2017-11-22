@@ -2,8 +2,8 @@
 
 ## Challenges
 
-1. Add more animals to the response of `src/routes/animals.js`
-2. Add a sea critters route at `/sea-critters` plus a model, with six different ocean-based animals
+1. Add more default animals to its model file
+2. Add a sea critters routes at `/sea-critters` plus the model, with six different ocean-based animals by default. Add all CRUD routes
 
 ## Challenges 2
 
@@ -12,6 +12,6 @@
 
 ## Challenges 3
 
-1. Add an /areas route, with say the different continents of the world, or different habitats (savanna, forest, etc)
-2. Associate each animal with a particular area, using an ID number
+1. Add `/areas` CRUD routes and model, with different habitats (savanna, forest, etc) e.g. `{ id: 1, name: "Forest" }`
+2. Associate each animal with a particular area, using the area's ID number
 3. In the animal routes, replace any instances of area IDs instead with the information about that area instead ('populate')
